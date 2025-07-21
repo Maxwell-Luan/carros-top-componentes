@@ -1,0 +1,44 @@
+.lm-card{
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    padding: 0 10px;
+    background-color: var(--lm-color-bg-secundary);
+    border-radius: 10px;
+}
+
+.lm-card img{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    padding: 10px 40px;
+}
+
+.lm-card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.lm-card-description h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lm-card-description p{
+    font-size: 14px;
+    font-style: italic;
+    color: var(--lm-color-font-primary);
+}
+
+.lm-card-button{
+    padding: 20px 0 10px 0;
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

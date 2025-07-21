@@ -1,0 +1,12 @@
+.lm-search-button{
+    background-color: var(--lm-color-bg-button-primary);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--lm-color-font-button-primary);
+    width: 80px;
+    border: 1px solid var(--lm-color-border-primary); 
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}

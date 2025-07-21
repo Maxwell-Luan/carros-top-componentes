@@ -1,0 +1,9 @@
+.lm-main-container{
+    padding: 40px 10px;
+}
+.lm-catalog-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

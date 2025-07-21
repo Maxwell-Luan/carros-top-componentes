@@ -1,0 +1,24 @@
+.lm-search-bar{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    border: none;
+    padding: 40px 0;
+}
+
+.lm-search-bar input{
+    display: flex;
+    flex: 1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid var(--lm-color-border-primary);
+    padding: 0 20px;
+}
+
+.lm-search-bar input::placeholder{
+    color: var(--lm-color-placeholder);
+}
+
+.lm-search-bar input:focus{
+   outline: none;
+}

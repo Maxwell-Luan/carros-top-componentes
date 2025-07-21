@@ -1,0 +1,15 @@
+.lm-buy-button{
+    background-color: var(--lm-color-bg-button-primary);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--lm-color-font-button-primary);
+    width: 100%;
+    max-width: 260px;
+    border: 1px solid var(--lm-color-border-primary); 
+    border-radius: 5px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

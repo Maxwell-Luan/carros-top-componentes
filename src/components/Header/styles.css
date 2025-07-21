@@ -1,0 +1,12 @@
+.lm-header {
+  background-color: var(--lm-color-header-bg-primary);
+  height: 70px;
+  width: 100%;
+}
+
+.lm-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  color: var(--lm-color-title-primary);
+}
